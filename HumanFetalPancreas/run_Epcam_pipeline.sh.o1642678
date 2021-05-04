@@ -1,0 +1,421 @@
+Loading required package: ggplot2
+Loading required package: SummarizedExperiment
+Loading required package: GenomicRanges
+Loading required package: stats4
+Loading required package: BiocGenerics
+Loading required package: parallel
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:parallel’:
+
+    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+    clusterExport, clusterMap, parApply, parCapply, parLapply,
+    parLapplyLB, parRapply, parSapply, parSapplyLB
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which, which.max, which.min
+
+Loading required package: S4Vectors
+
+Attaching package: ‘S4Vectors’
+
+The following object is masked from ‘package:base’:
+
+    expand.grid
+
+Loading required package: IRanges
+Loading required package: GenomeInfoDb
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Loading required package: DelayedArray
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following objects are masked from ‘package:Biobase’:
+
+    anyMissing, rowMedians
+
+Loading required package: BiocParallel
+
+Attaching package: ‘DelayedArray’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colMaxs, colMins, colRanges, rowMaxs, rowMins, rowRanges
+
+The following objects are masked from ‘package:base’:
+
+    aperm, apply, rowsum
+
+Loading required package: data.table
+
+Attaching package: ‘data.table’
+
+The following object is masked from ‘package:SummarizedExperiment’:
+
+    shift
+
+The following object is masked from ‘package:GenomicRanges’:
+
+    shift
+
+The following object is masked from ‘package:IRanges’:
+
+    shift
+
+The following objects are masked from ‘package:S4Vectors’:
+
+    first, second
+
+Loading required package: Matrix
+
+Attaching package: ‘Matrix’
+
+The following object is masked from ‘package:S4Vectors’:
+
+    expand
+
+Loading required package: rhdf5
+Loading required package: magrittr
+Setting default genome to Hg38.
+Using GeneAnnotation set by addArchRGenome(Hg38)!
+Using GeneAnnotation set by addArchRGenome(Hg38)!
+ArchR logging to : ArchRLogs/ArchR-createArrows-392538d7cf1c-Date-2020-05-19_Time-21-58-58.log
+If there is an issue, please report to github with logFile!
+2020-05-19 21:59:05 : Batch Execution w/ safelapply!, 0 mins elapsed.
+2020-05-19 21:59:05 : (Epcam : 1 of 1) Arrow Exists! Overriding since not completed!, 0.005 mins elapsed.
+2020-05-19 21:59:05 : (Epcam : 1 of 1) Reading In Fragments from inputFiles (readMethod = tabix), 0.012 mins elapsed.
+2020-05-19 21:59:05 : (Epcam : 1 of 1) Tabix Bed To Temporary File, 0.012 mins elapsed.
+2020-05-19 22:02:57 : (Epcam : 1 of 1) Reading TabixFile 8 Percent, 3.875 mins elapsed.
+2020-05-19 22:05:41 : (Epcam : 1 of 1) Reading TabixFile 17 Percent, 6.599 mins elapsed.
+2020-05-19 22:08:30 : (Epcam : 1 of 1) Reading TabixFile 25 Percent, 9.426 mins elapsed.
+2020-05-19 22:10:35 : (Epcam : 1 of 1) Reading TabixFile 33 Percent, 11.51 mins elapsed.
+2020-05-19 22:12:50 : (Epcam : 1 of 1) Reading TabixFile 42 Percent, 13.758 mins elapsed.
+2020-05-19 22:15:15 : (Epcam : 1 of 1) Reading TabixFile 50 Percent, 16.175 mins elapsed.
+2020-05-19 22:16:38 : (Epcam : 1 of 1) Reading TabixFile 58 Percent, 17.562 mins elapsed.
+2020-05-19 22:18:24 : (Epcam : 1 of 1) Reading TabixFile 67 Percent, 19.321 mins elapsed.
+2020-05-19 22:20:15 : (Epcam : 1 of 1) Reading TabixFile 75 Percent, 21.163 mins elapsed.
+2020-05-19 22:22:15 : (Epcam : 1 of 1) Reading TabixFile 83 Percent, 23.174 mins elapsed.
+2020-05-19 22:23:02 : (Epcam : 1 of 1) Reading TabixFile 92 Percent, 23.954 mins elapsed.
+2020-05-19 22:23:50 : (Epcam : 1 of 1) Reading TabixFile 100 Percent, 24.756 mins elapsed.
+2020-05-19 22:23:52 : (Epcam : 1 of 1) Successful creation of Temporary File, 24.785 mins elapsed.
+2020-05-19 22:23:52 : (Epcam : 1 of 1) Creating ArrowFile From Temporary File, 24.786 mins elapsed.
+2020-05-19 22:34:55 : (Epcam : 1 of 1) Successful creation of Arrow File, 35.837 mins elapsed.
+2020-05-19 22:40:02 : (Epcam : 1 of 1) CellStats : Number of Cells Pass Filter = 6429 , 40.955 mins elapsed.
+2020-05-19 22:40:02 : (Epcam : 1 of 1) CellStats : Median Frags = 31743 , 40.956 mins elapsed.
+2020-05-19 22:40:02 : (Epcam : 1 of 1) CellStats : Median TSS Enrichment = 13.222 , 40.957 mins elapsed.
+2020-05-19 22:40:14 : (Epcam : 1 of 1) Adding Additional Feature Counts!, 41.154 mins elapsed.
+2020-05-19 22:44:30 : (Epcam : 1 of 1) Removing Fragments from Filtered Cells, 45.423 mins elapsed.
+2020-05-19 22:44:30 : (Epcam : 1 of 1) Creating Filtered Arrow File, 45.424 mins elapsed.
+2020-05-19 22:50:10 : (Epcam : 1 of 1) Finished Constructing Filtered Arrow File!, 51.082 mins elapsed.
+2020-05-19 22:50:11 : (Epcam : 1 of 1) Adding TileMatrix!, 51.105 mins elapsed.
+2020-05-19 22:57:55 : (Epcam : 1 of 1) Adding GeneScoreMatrix!, 58.83 mins elapsed.
+2020-05-19 23:08:49 : (Epcam : 1 of 1) Finished Creating Arrow File, 69.74 mins elapsed.
+ArchR logging successful to : ArchRLogs/ArchR-createArrows-392538d7cf1c-Date-2020-05-19_Time-21-58-58.log
+Setting default genome to Hg38.
+Setting default number of Parallel threads to 16.
+ArchR logging to : ArchRLogs/ArchR-addDoubletScores-392521a77884-Date-2020-05-19_Time-23-08-52.log
+If there is an issue, please report to github with logFile!
+2020-05-19 23:09:09 : Batch Execution w/ safelapply!, 0 mins elapsed.
+2020-05-19 23:09:09 : Epcam (1 of 1) :  Computing Doublet Statistics, 0.003 mins elapsed.
+Epcam (1 of 1) : UMAP Projection R^2 = 0.66494
+Epcam (1 of 1) : Correlation of UMAP Projection is below 0.9 (normally this is ~0.99)
+This means there is little heterogeneity in your sample and thus doubletCalling is inaccurate.
+force = FALSE, thus returning -1 doubletScores and doubletEnrichments!
+Set force = TRUE if you want to contniue (not recommended).
+ArchR logging successful to : ArchRLogs/ArchR-addDoubletScores-392521a77884-Date-2020-05-19_Time-23-08-52.log
+Using GeneAnnotation set by addArchRGenome(Hg38)!
+Using GeneAnnotation set by addArchRGenome(Hg38)!
+Validating Arrows...
+Getting SampleNames...
+1 
+Copying ArrowFiles to Ouptut Directory! If you want to save disk space set copyArrows = FALSE
+1 
+Getting Cell Metadata...
+1 
+Merging Cell Metadata...
+Initializing ArchRProject...
+
+                                                   / |
+                                                 /    \
+            .                                  /      |.
+            \\\                              /        |.
+              \\\                          /           `|.
+                \\\                      /              |.
+                  \                    /                |\
+                  \\#####\           /                  ||
+                ==###########>      /                   ||
+                 \\##==......\    /                     ||
+            ______ =       =|__ /__                     ||      \\\
+        ,--' ,----`-,__ ___/'  --,-`-===================##========>
+       \               '        ##_______ _____ ,--,__,=##,__   ///
+        ,    __==    ___,-,__,--'#'  ==='      `-'    | ##,-/
+        -,____,---'       \\####\\________________,--\\_##,/
+           ___      .______        ______  __    __  .______      
+          /   \     |   _  \      /      ||  |  |  | |   _  \     
+         /  ^  \    |  |_)  |    |  ,----'|  |__|  | |  |_)  |    
+        /  /_\  \   |      /     |  |     |   __   | |      /     
+       /  _____  \  |  |\  \\___ |  `----.|  |  |  | |  |\  \\___.
+      /__/     \__\ | _| `._____| \______||__|  |__| | _| `._____|
+    
+
+           ___      .______        ______  __    __  .______      
+          /   \     |   _  \      /      ||  |  |  | |   _  \     
+         /  ^  \    |  |_)  |    |  ,----'|  |__|  | |  |_)  |    
+        /  /_\  \   |      /     |  |     |   __   | |      /     
+       /  _____  \  |  |\  \\___ |  `----.|  |  |  | |  |\  \\___.
+      /__/     \__\ | _| `._____| \______||__|  |__| | _| `._____|
+    
+class: ArchRProject 
+outputDirectory: /shen/shenlabstore3/neng/20200509_scATAC_sneddon/EpcamTutorial 
+samples(1): Epcam
+sampleColData names(1): ArrowFiles
+cellColData names(15): Sample TSSEnrichment ... DoubletEnrichment
+  BlacklistRatio
+numberOfCells(1): 6429
+medianTSS(1): 13.222
+medianFrags(1): 31743
+Copying ArchRProject to new outputDirectory : /shen/shenlabstore3/neng/20200509_scATAC_sneddon/Save-ProjEpcam1
+Copying Arrow Files...
+Copying Arrow Files (1 of 1)
+Getting ImputeWeights
+No imputeWeights found, returning NULL
+Copying Other Files...
+Saving ArchRProject...
+Warning message:
+In normalizePath(outputDirectory) :
+  path[1]="Save-ProjEpcam1": No such file or directory
+Successfully loaded ArchRProject!
+
+                                                   / |
+                                                 /    \
+            .                                  /      |.
+            \\\                              /        |.
+              \\\                          /           `|.
+                \\\                      /              |.
+                  \                    /                |\
+                  \\#####\           /                  ||
+                ==###########>      /                   ||
+                 \\##==......\    /                     ||
+            ______ =       =|__ /__                     ||      \\\
+        ,--' ,----`-,__ ___/'  --,-`-===================##========>
+       \               '        ##_______ _____ ,--,__,=##,__   ///
+        ,    __==    ___,-,__,--'#'  ==='      `-'    | ##,-/
+        -,____,---'       \\####\\________________,--\\_##,/
+           ___      .______        ______  __    __  .______      
+          /   \     |   _  \      /      ||  |  |  | |   _  \     
+         /  ^  \    |  |_)  |    |  ,----'|  |__|  | |  |_)  |    
+        /  /_\  \   |      /     |  |     |   __   | |      /     
+       /  _____  \  |  |\  \\___ |  `----.|  |  |  | |  |\  \\___.
+      /__/     \__\ | _| `._____| \______||__|  |__| | _| `._____|
+    
+Checking Inputs...
+ArchR logging to : ArchRLogs/ArchR-addIterativeLSI-39254c3c87d3-Date-2020-05-19_Time-23-24-59.log
+If there is an issue, please report to github with logFile!
+2020-05-19 23:25:23 : Computing Total Accessibility Across All Features, 0.02 mins elapsed.
+2020-05-19 23:25:34 : Computing Top Features, 0.218 mins elapsed.
+###########
+2020-05-19 23:25:35 : Running LSI (1 of 2) on Top Features, 0.228 mins elapsed.
+###########
+2020-05-19 23:25:36 : Creating Partial Matrix, 0.236 mins elapsed.
+2020-05-19 23:26:43 : Computing LSI, 1.355 mins elapsed.
+2020-05-19 23:27:23 : Identifying Clusters, 2.032 mins elapsed.
+2020-05-19 23:27:39 : Identified 15 Clusters, 2.292 mins elapsed.
+2020-05-19 23:27:39 : Saving LSI Iteration, 2.295 mins elapsed.
+2020-05-19 23:28:00 : Creating Cluster Matrix on the total Group Features, 2.646 mins elapsed.
+2020-05-19 23:28:13 : Computing Variable Features, 2.855 mins elapsed.
+###########
+2020-05-19 23:28:13 : Running LSI (2 of 2) on Variable Features, 2.863 mins elapsed.
+###########
+2020-05-19 23:28:13 : Creating Partial Matrix, 2.864 mins elapsed.
+2020-05-19 23:28:48 : Computing LSI, 3.445 mins elapsed.
+2020-05-19 23:29:14 : Finished Running IterativeLSI, 3.883 mins elapsed.
+ArchR logging to : ArchRLogs/ArchR-addClusters-3925324f456c-Date-2020-05-19_Time-23-29-15.log
+If there is an issue, please report to github with logFile!
+2020-05-19 23:29:28 : Running Seurats FindClusters (Stuart et al. Cell 2019), 0.002 mins elapsed.
+Computing nearest neighbor graph
+Computing SNN
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 6429
+Number of edges: 223498
+
+Running Louvain algorithm...
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Maximum modularity in 10 random starts: 0.8759
+Number of communities: 18
+Elapsed time: 0 seconds
+2020-05-19 23:29:35 : Testing Biased Clusters, 0.133 mins elapsed.
+2020-05-19 23:29:35 : Testing Outlier Clusters, 0.134 mins elapsed.
+2020-05-19 23:29:35 : Assigning Cluster Names to 18 Clusters, 0.135 mins elapsed.
+2020-05-19 23:29:36 : Finished addClusters, 0.136 mins elapsed.
+23:29:36 UMAP embedding parameters a = 0.583 b = 1.334
+23:29:36 Read 6429 rows and found 20 numeric columns
+23:29:36 Using Annoy for neighbor search, n_neighbors = 30
+23:29:36 Building Annoy index with metric = cosine, n_trees = 50
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+23:29:37 Writing NN index file to temp file /scratch/1642678.1.member.q/Rtmp9hXPjT/file392575ee97ec
+23:29:37 Searching Annoy index using 28 threads, search_k = 3000
+23:29:37 Annoy recall = 100%
+23:29:38 Commencing smooth kNN distance calibration using 28 threads
+23:29:39 Initializing from normalized Laplacian + noise
+23:29:39 Commencing optimization for 500 epochs, with 270386 positive edges
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+23:29:58 Optimization finished
+Copying ArchRProject to new outputDirectory : /shen/shenlabstore3/neng/20200509_scATAC_sneddon/Save-ProjEpcam2
+Copying Arrow Files...
+Copying Arrow Files (1 of 1)
+Getting ImputeWeights
+No imputeWeights found, returning NULL
+Copying Other Files...
+Copying Other Files (1 of 2): Embeddings
+Copying Other Files (2 of 2): IterativeLSI
+Saving ArchRProject...
+Warning message:
+In normalizePath(outputDirectory) :
+  path[1]="Save-ProjEpcam2": No such file or directory
+Successfully loaded ArchRProject!
+
+                                                   / |
+                                                 /    \
+            .                                  /      |.
+            \\\                              /        |.
+              \\\                          /           `|.
+                \\\                      /              |.
+                  \                    /                |\
+                  \\#####\           /                  ||
+                ==###########>      /                   ||
+                 \\##==......\    /                     ||
+            ______ =       =|__ /__                     ||      \\\
+        ,--' ,----`-,__ ___/'  --,-`-===================##========>
+       \               '        ##_______ _____ ,--,__,=##,__   ///
+        ,    __==    ___,-,__,--'#'  ==='      `-'    | ##,-/
+        -,____,---'       \\####\\________________,--\\_##,/
+           ___      .______        ______  __    __  .______      
+          /   \     |   _  \      /      ||  |  |  | |   _  \     
+         /  ^  \    |  |_)  |    |  ,----'|  |__|  | |  |_)  |    
+        /  /_\  \   |      /     |  |     |   __   | |      /     
+       /  _____  \  |  |\  \\___ |  `----.|  |  |  | |  |\  \\___.
+      /__/     \__\ | _| `._____| \______||__|  |__| | _| `._____|
+    
+ArchR logging to : ArchRLogs/ArchR-plotEmbedding-39253fb5ef66-Date-2020-05-19_Time-23-33-17.log
+If there is an issue, please report to github with logFile!
+Plotting Embedding
+1 
+ArchR logging successful to : ArchRLogs/ArchR-plotEmbedding-39253fb5ef66-Date-2020-05-19_Time-23-33-17.log
+ArchR logging to : ArchRLogs/ArchR-plotEmbedding-3925d85f87c-Date-2020-05-19_Time-23-33-31.log
+If there is an issue, please report to github with logFile!
+Plotting Embedding
+1 
+ArchR logging successful to : ArchRLogs/ArchR-plotEmbedding-3925d85f87c-Date-2020-05-19_Time-23-33-31.log
+ArchR logging to : ArchRLogs/ArchR-getMarkerFeatures-39254224aa99-Date-2020-05-19_Time-23-33-40.log
+If there is an issue, please report to github with logFile!
+2020-05-19 23:33:46 : Matching Known Biases, 0.005 mins elapsed.
+2020-05-19 23:34:37 : Computing Pairwise Tests (1 of 18), 0.865 mins elapsed.
+2020-05-19 23:34:37 : Computing Pairwise Tests (2 of 18), 0.865 mins elapsed.
+2020-05-19 23:34:37 : Computing Pairwise Tests (3 of 18), 0.865 mins elapsed.
+2020-05-19 23:34:37 : Computing Pairwise Tests (4 of 18), 0.865 mins elapsed.
+2020-05-19 23:34:37 : Computing Pairwise Tests (5 of 18), 0.866 mins elapsed.
+2020-05-19 23:34:37 : Computing Pairwise Tests (6 of 18), 0.866 mins elapsed.
+2020-05-19 23:34:37 : Computing Pairwise Tests (7 of 18), 0.866 mins elapsed.
+2020-05-19 23:34:37 : Computing Pairwise Tests (8 of 18), 0.867 mins elapsed.
+2020-05-19 23:34:37 : Computing Pairwise Tests (9 of 18), 0.867 mins elapsed.
+2020-05-19 23:34:38 : Computing Pairwise Tests (10 of 18), 0.868 mins elapsed.
+2020-05-19 23:34:38 : Computing Pairwise Tests (11 of 18), 0.868 mins elapsed.
+2020-05-19 23:34:38 : Computing Pairwise Tests (12 of 18), 0.869 mins elapsed.
+2020-05-19 23:34:38 : Computing Pairwise Tests (13 of 18), 0.869 mins elapsed.
+2020-05-19 23:34:38 : Computing Pairwise Tests (14 of 18), 0.87 mins elapsed.
+2020-05-19 23:34:38 : Computing Pairwise Tests (15 of 18), 0.87 mins elapsed.
+2020-05-19 23:34:38 : Computing Pairwise Tests (16 of 18), 0.871 mins elapsed.
+2020-05-19 23:35:35 : Computing Pairwise Tests (17 of 18), 1.826 mins elapsed.
+2020-05-19 23:35:35 : Computing Pairwise Tests (18 of 18), 1.827 mins elapsed.
+###########
+2020-05-19 23:36:04 : Completed Pairwise Tests, 2.309 mins elapsed.
+###########
+ArchR logging successful to : ArchRLogs/ArchR-getMarkerFeatures-39254224aa99-Date-2020-05-19_Time-23-33-40.log
+ArchR logging to : ArchRLogs/ArchR-plotMarkerHeatmap-3925ec1b650-Date-2020-05-19_Time-23-36-12.log
+If there is an issue, please report to github with logFile!
+Printing Top Marker Genes:
+C1:
+	MTOR-AS1, TAS1R2, FAM43B, GBP1, GBP7, LINC01787, VCAM1, SMCP, SEMA4A, OR10R2, NDUFS2, METTL11B, MIR1295A, DNM3, PIGC, ANGPTL1, IGFN1, SNORA77, HSD11B1, RYR2
+C2:
+	PERM1, LINC01777, MIR34A, TINAGL1, CSMD2-AS1, GJA4, RHBDL2, PPIEL, HEYL, CYP4X1, OLFML3, C1orf137, GJA5, PKLR, PEAR1, ETV3L, OLFML2B, LMOD1, MYOG, LINC00303
+C3:
+	MIR5697, CORT, AGTRAP, ALPL, LDLRAD2, HSPG2, FAM110D, LCK, TIE1, MIR4422, ADGRL4, LRRC8C, PALMD, FRRS1, S1PR1, LOC101928370, VAV3-AS1, MIR8083, NUP210L, MIR5698
+C4:
+	TNFRSF14, PIK3CD-AS1, NPPA-AS1, TNFRSF8, MIR4632, PLA2G2C, E2F2, CNR2, MIR4425, THEMIS2, RPA2, RAB42, MIR4420, PPT1, SMAP2, ARMH1, RNU5F-1, AKR1A1, DNASE2B, FAM102B
+C5:
+	MIR551A, CA6, ANGPTL7, AADACL3, HCRTR1, MIR4711, LOC101926964, NFIA-AS1, LINC00466, FOXD3, FOXD3-AS1, MIR6068, LOC101927434, LINC01140, SLC16A4, LAMTOR5-AS1, PROK1, KCNA10, SLC16A1, SRGAP2B
+C6:
+	CDRT15L2, PSG7, PSG2, LINC01790, MIR8069-1, LINC01667, MIR6130, LINC02506, LINC02113, LOC101928201, MAGEB16, AR, IL1RAPL2, IGF1, ITGAM, TP53TG3HP, MTRNR2L1, EDN1, FAM87B, PERM1
+C7:
+	OR10AG1, OR6C68, SPDYE4, SPINT4, UGT2B15, ADH4, VNN3, MIR3914-1, PAGE3, SPERT, PRSS37, RNASE6, FAM87B, PERM1, MIR6726, MMP23A, TNFRSF14, MIR551A, LINC01777, HES3
+C8:
+	MIR378F, LINC01781, VTCN1, SPRR4, SPRR3, DPT, FMO2, OR51B2, LOC102723838, MMP3, CLEC6A, DAOA, CTSG, FLJ36000, KRT25, KRT39, KRTAP4-8, LINC01028, LOC102723517, LINC02097
+C9:
+	FAM87B, PERM1, MIR6726, MMP23A, TNFRSF14, MIR551A, LINC01777, HES3, MIR6728, CA6, SLC2A7, MIR34A, PIK3CD-AS1, MIR5697, CORT, MTOR-AS1, ANGPTL7, DISP3, AGTRAP, NPPA-AS1
+C10:
+	CELA3A, FAM71A, FAM24B-CUZD1, CUZD1, FUOM, MIR6762, SNORD113-1, SNORD113-4, SNORD113-5, SNORD113-6, SNORD113-7, SNORD113-8, SNORD114-10, SNORD114-11, SNORD114-12, SNORD114-19, SNORD114-25, SNORD114-26, SNORD114-27, SNORD114-28
+C11:
+	CTRC, MIR3972, BCL2L15, SLC26A9, SLC26A9-AS1, PTF1A, C11orf94, OVOL1-AS1, MIR370, SNORD114-18, MIR889, MIR544A, MIR655, C15orf48, MIR365A, MT1H, MT1G, SLC12A3, IL17C, ARRDC5
+C12:
+	DISP3, SDC3, EPHA10, RIMS3, EDN2, SSBP3-AS1, CTH, MIR137HG, KCNN3, FAM163A, LRRN2, LINC01696, ARHGAP22, DRGX, MOB2, KCNQ1-AS1, NRXN2, MIR139, NCAM1, NCAM1-AS1
+C13:
+	MIR6728, C1orf158, MIR5585, HPCA, MIR3117, CLCA1, KIAA1107, KCNA3, RIIAD1, TCHHL1, CADM3-AS1, ACKR1, GPR52, LINC01653, LINC00701, UCN3, GAD2, PDE6C, LOC283038, KNDC1
+C14:
+	FAM87B, FCRLA, AVPR1B, MIR3123, MIR609, LINC00601, MS4A8, MIR1261, MIR4301, CRTAM, RXYLT1-AS1, MIR6861, LINC00463, DACH1, MIR3171, SALL1, LINC01571, LINC02125, FBXO39, KRT9
+C15:
+	MIR6735, DAB1-AS1, MIR181B1, MIR6740, SPHAR, OR51A7, LMO1, OR8U1, OR5R1, LOC105369431, CASP5, KLRC4, BTBD11, LINC00448, MIR4705, PSMB5, MIR208B, LINC00643, SNORD116-23, SNORD115-38
+C16:
+	FAM87B, PERM1, MIR6726, MMP23A, TNFRSF14, MIR551A, LINC01777, HES3, MIR6728, CA6, SLC2A7, MIR34A, PIK3CD-AS1, MIR5697, CORT, MTOR-AS1, ANGPTL7, DISP3, AGTRAP, NPPA-AS1
+C17:
+	MIR6726, MMP23A, NPPA, CELA2B, SLAMF8, ADARB2-AS1, MIR5100, LOC102724323, MRGPRE, OR10A3, NAV2-AS5, DRD2, LRTM2, KRT74, PRSS21, MIR6771, LINC00919, KRTAP1-1, KRTAP9-1, KRTAP9-2
+C18:
+	HES3, LINC01654, TMCO2, ZYG11B, MIR2682, FCRL6, LINC00200, FFAR4, NEURL1, LDHAL6A, OR5AN1, LOC100507548, RMST, MIR1251, LINC02368, LINC00381, ADCK1, SERPINA10, SNORD116-30, THSD4
+Identified 3423 markers!
+Adding Annotations..
+Preparing Main Heatmap..
+ArchR logging successful to : ArchRLogs/ArchR-plotMarkerHeatmap-3925ec1b650-Date-2020-05-19_Time-23-36-12.log
+Warning message:
+'markerHeatmap' is deprecated.
+Use 'plotMarkerHeatmap' instead.
+See help("Deprecated") 
+ArchR logging to : ArchRLogs/ArchR-addImputeWeights-39257e1196bf-Date-2020-05-19_Time-23-36-30.log
+If there is an issue, please report to github with logFile!
+2020-05-19 23:36:31 : Computing Impute Weights Using Magic (Cell 2018), 0 mins elapsed.
+Getting ImputeWeights
+ArchR logging to : ArchRLogs/ArchR-plotEmbedding-3925766598b1-Date-2020-05-19_Time-23-36-46.log
+If there is an issue, please report to github with logFile!
+2020-05-19 23:36:48 : Getting Matrix Values...
+1 
+Imputing Matrix
+Plotting Embedding
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 
+ArchR logging successful to : ArchRLogs/ArchR-plotEmbedding-3925766598b1-Date-2020-05-19_Time-23-36-46.log
+Error in tEpcam_ArchR(baseSize = 6.5) : 
+  could not find function "tEpcam_ArchR"
+Calls: lapply -> lapply -> FUN
+Execution halted
