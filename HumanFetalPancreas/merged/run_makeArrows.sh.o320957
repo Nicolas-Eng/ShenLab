@@ -1,0 +1,179 @@
+Loading required package: ggplot2
+Loading required package: SummarizedExperiment
+Loading required package: GenomicRanges
+Loading required package: stats4
+Loading required package: BiocGenerics
+Loading required package: parallel
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:parallel’:
+
+    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+    clusterExport, clusterMap, parApply, parCapply, parLapply,
+    parLapplyLB, parRapply, parSapply, parSapplyLB
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which, which.max, which.min
+
+Loading required package: S4Vectors
+
+Attaching package: ‘S4Vectors’
+
+The following object is masked from ‘package:base’:
+
+    expand.grid
+
+Loading required package: IRanges
+Loading required package: GenomeInfoDb
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Loading required package: DelayedArray
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following objects are masked from ‘package:Biobase’:
+
+    anyMissing, rowMedians
+
+Loading required package: BiocParallel
+
+Attaching package: ‘DelayedArray’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colMaxs, colMins, colRanges, rowMaxs, rowMins, rowRanges
+
+The following objects are masked from ‘package:base’:
+
+    aperm, apply, rowsum
+
+Loading required package: data.table
+
+Attaching package: ‘data.table’
+
+The following object is masked from ‘package:SummarizedExperiment’:
+
+    shift
+
+The following object is masked from ‘package:GenomicRanges’:
+
+    shift
+
+The following object is masked from ‘package:IRanges’:
+
+    shift
+
+The following objects are masked from ‘package:S4Vectors’:
+
+    first, second
+
+Loading required package: Matrix
+
+Attaching package: ‘Matrix’
+
+The following object is masked from ‘package:S4Vectors’:
+
+    expand
+
+Loading required package: rhdf5
+Loading required package: magrittr
+Setting default number of Parallel threads to 16.
+Setting default genome to Hg38.
+Using GeneAnnotation set by addArchRGenome(Hg38)!
+Using GeneAnnotation set by addArchRGenome(Hg38)!
+ArchR logging to : ArchRLogs/ArchR-createArrows-9cf309c60c3-Date-2020-09-14_Time-08-28-05.log
+If there is an issue, please report to github with logFile!
+2020-09-14 08:28:07 : Batch Execution w/ safelapply!, 0 mins elapsed.
+2020-09-14 08:28:07 : (Ep-Nu_2 : 1 of 3) Reading In Fragments from inputFiles (readMethod = tabix), 0.002 mins elapsed.
+2020-09-14 08:28:07 : (Total-Nu_1 : 2 of 3) Reading In Fragments from inputFiles (readMethod = tabix), 0.002 mins elapsed.
+2020-09-14 08:28:07 : (Total-Nu_2 : 3 of 3) Reading In Fragments from inputFiles (readMethod = tabix), 0.002 mins elapsed.
+2020-09-14 08:28:07 : (Ep-Nu_2 : 1 of 3) Tabix Bed To Temporary File, 0.002 mins elapsed.
+2020-09-14 08:28:07 : (Total-Nu_1 : 2 of 3) Tabix Bed To Temporary File, 0.002 mins elapsed.
+2020-09-14 08:28:07 : (Total-Nu_2 : 3 of 3) Tabix Bed To Temporary File, 0.002 mins elapsed.
+2020-09-14 08:29:21 : (Total-Nu_2 : 3 of 3) Reading TabixFile 9 Percent, 1.231 mins elapsed.
+2020-09-14 08:29:42 : (Ep-Nu_2 : 1 of 3) Reading TabixFile 9 Percent, 1.586 mins elapsed.
+2020-09-14 08:29:48 : (Total-Nu_1 : 2 of 3) Reading TabixFile 9 Percent, 1.684 mins elapsed.
+2020-09-14 08:30:20 : (Total-Nu_2 : 3 of 3) Reading TabixFile 18 Percent, 2.215 mins elapsed.
+2020-09-14 08:31:16 : (Total-Nu_1 : 2 of 3) Reading TabixFile 18 Percent, 3.141 mins elapsed.
+2020-09-14 08:31:16 : (Ep-Nu_2 : 1 of 3) Reading TabixFile 18 Percent, 3.148 mins elapsed.
+2020-09-14 08:31:22 : (Total-Nu_2 : 3 of 3) Reading TabixFile 28 Percent, 3.246 mins elapsed.
+2020-09-14 08:32:23 : (Total-Nu_2 : 3 of 3) Reading TabixFile 37 Percent, 4.269 mins elapsed.
+2020-09-14 08:32:29 : (Total-Nu_1 : 2 of 3) Reading TabixFile 28 Percent, 4.358 mins elapsed.
+2020-09-14 08:32:32 : (Ep-Nu_2 : 1 of 3) Reading TabixFile 28 Percent, 4.407 mins elapsed.
+2020-09-14 08:33:13 : (Total-Nu_2 : 3 of 3) Reading TabixFile 46 Percent, 5.096 mins elapsed.
+2020-09-14 08:33:41 : (Ep-Nu_2 : 1 of 3) Reading TabixFile 37 Percent, 5.568 mins elapsed.
+2020-09-14 08:33:52 : (Total-Nu_1 : 2 of 3) Reading TabixFile 37 Percent, 5.743 mins elapsed.
+2020-09-14 08:34:11 : (Total-Nu_2 : 3 of 3) Reading TabixFile 55 Percent, 6.06 mins elapsed.
+2020-09-14 08:34:52 : (Total-Nu_2 : 3 of 3) Reading TabixFile 64 Percent, 6.754 mins elapsed.
+2020-09-14 08:34:56 : (Ep-Nu_2 : 1 of 3) Reading TabixFile 46 Percent, 6.807 mins elapsed.
+2020-09-14 08:34:58 : (Total-Nu_1 : 2 of 3) Reading TabixFile 46 Percent, 6.843 mins elapsed.
+2020-09-14 08:35:36 : (Total-Nu_2 : 3 of 3) Reading TabixFile 73 Percent, 7.478 mins elapsed.
+2020-09-14 08:35:53 : (Ep-Nu_2 : 1 of 3) Reading TabixFile 55 Percent, 7.767 mins elapsed.
+2020-09-14 08:35:55 : (Total-Nu_1 : 2 of 3) Reading TabixFile 55 Percent, 7.805 mins elapsed.
+2020-09-14 08:36:14 : (Total-Nu_2 : 3 of 3) Reading TabixFile 82 Percent, 8.112 mins elapsed.
+2020-09-14 08:36:33 : (Total-Nu_2 : 3 of 3) Reading TabixFile 92 Percent, 8.434 mins elapsed.
+2020-09-14 08:36:40 : (Ep-Nu_2 : 1 of 3) Reading TabixFile 64 Percent, 8.548 mins elapsed.
+2020-09-14 08:36:44 : (Total-Nu_1 : 2 of 3) Reading TabixFile 64 Percent, 8.618 mins elapsed.
+2020-09-14 08:36:58 : (Total-Nu_2 : 3 of 3) Successful creation of Temporary File, 8.849 mins elapsed.
+2020-09-14 08:36:58 : (Total-Nu_2 : 3 of 3) Creating ArrowFile From Temporary File, 8.849 mins elapsed.
+2020-09-14 08:37:35 : (Total-Nu_1 : 2 of 3) Reading TabixFile 73 Percent, 9.46 mins elapsed.
+2020-09-14 08:37:35 : (Ep-Nu_2 : 1 of 3) Reading TabixFile 73 Percent, 9.461 mins elapsed.
+2020-09-14 08:38:15 : (Total-Nu_1 : 2 of 3) Reading TabixFile 82 Percent, 10.124 mins elapsed.
+2020-09-14 08:38:19 : (Ep-Nu_2 : 1 of 3) Reading TabixFile 82 Percent, 10.201 mins elapsed.
+2020-09-14 08:38:38 : (Total-Nu_1 : 2 of 3) Reading TabixFile 92 Percent, 10.513 mins elapsed.
+2020-09-14 08:38:47 : (Ep-Nu_2 : 1 of 3) Reading TabixFile 92 Percent, 10.662 mins elapsed.
+2020-09-14 08:39:15 : (Total-Nu_1 : 2 of 3) Successful creation of Temporary File, 11.138 mins elapsed.
+2020-09-14 08:39:15 : (Total-Nu_1 : 2 of 3) Creating ArrowFile From Temporary File, 11.138 mins elapsed.
+2020-09-14 08:39:17 : (Total-Nu_2 : 3 of 3) Successful creation of Arrow File, 11.171 mins elapsed.
+2020-09-14 08:39:18 : (Ep-Nu_2 : 1 of 3) Successful creation of Temporary File, 11.187 mins elapsed.
+2020-09-14 08:39:18 : (Ep-Nu_2 : 1 of 3) Creating ArrowFile From Temporary File, 11.187 mins elapsed.
+2020-09-14 08:40:47 : (Total-Nu_2 : 3 of 3) CellStats : Number of Cells Pass Filter = 15168 , 12.668 mins elapsed.
+2020-09-14 08:40:47 : (Total-Nu_2 : 3 of 3) CellStats : Median Frags = 8204.5 , 12.67 mins elapsed.
+2020-09-14 08:40:47 : (Total-Nu_2 : 3 of 3) CellStats : Median TSS Enrichment = 14.3615 , 12.67 mins elapsed.
+2020-09-14 08:40:59 : (Total-Nu_2 : 3 of 3) Adding Additional Feature Counts!, 12.864 mins elapsed.
+2020-09-14 08:41:34 : (Total-Nu_2 : 3 of 3) Removing Fragments from Filtered Cells, 13.442 mins elapsed.
+2020-09-14 08:41:34 : (Total-Nu_2 : 3 of 3) Creating Filtered Arrow File, 13.442 mins elapsed.
+2020-09-14 08:41:49 : (Total-Nu_1 : 2 of 3) Successful creation of Arrow File, 13.693 mins elapsed.
+2020-09-14 08:42:05 : (Ep-Nu_2 : 1 of 3) Successful creation of Arrow File, 13.958 mins elapsed.
+2020-09-14 08:42:53 : (Total-Nu_2 : 3 of 3) Finished Constructing Filtered Arrow File!, 14.769 mins elapsed.
+2020-09-14 08:42:54 : (Total-Nu_2 : 3 of 3) Adding TileMatrix!, 14.774 mins elapsed.
+2020-09-14 08:43:29 : (Total-Nu_1 : 2 of 3) CellStats : Number of Cells Pass Filter = 18757 , 15.369 mins elapsed.
+2020-09-14 08:43:29 : (Total-Nu_1 : 2 of 3) CellStats : Median Frags = 8279 , 15.369 mins elapsed.
+2020-09-14 08:43:29 : (Total-Nu_1 : 2 of 3) CellStats : Median TSS Enrichment = 13.864 , 15.369 mins elapsed.
+2020-09-14 08:43:35 : (Total-Nu_1 : 2 of 3) Adding Additional Feature Counts!, 15.456 mins elapsed.
+2020-09-14 08:43:50 : (Ep-Nu_2 : 1 of 3) CellStats : Number of Cells Pass Filter = 22514 , 15.709 mins elapsed.
+2020-09-14 08:43:50 : (Ep-Nu_2 : 1 of 3) CellStats : Median Frags = 7696.5 , 15.709 mins elapsed.
+2020-09-14 08:43:50 : (Ep-Nu_2 : 1 of 3) CellStats : Median TSS Enrichment = 13.77 , 15.709 mins elapsed.
+2020-09-14 08:43:55 : (Ep-Nu_2 : 1 of 3) Adding Additional Feature Counts!, 15.801 mins elapsed.
+2020-09-14 08:44:06 : (Total-Nu_1 : 2 of 3) Removing Fragments from Filtered Cells, 15.986 mins elapsed.
+2020-09-14 08:44:06 : (Total-Nu_1 : 2 of 3) Creating Filtered Arrow File, 15.986 mins elapsed.
+2020-09-14 08:44:31 : (Ep-Nu_2 : 1 of 3) Removing Fragments from Filtered Cells, 16.392 mins elapsed.
+2020-09-14 08:44:31 : (Ep-Nu_2 : 1 of 3) Creating Filtered Arrow File, 16.392 mins elapsed.
+2020-09-14 08:45:34 : (Total-Nu_1 : 2 of 3) Finished Constructing Filtered Arrow File!, 17.448 mins elapsed.
+2020-09-14 08:45:34 : (Total-Nu_1 : 2 of 3) Adding TileMatrix!, 17.453 mins elapsed.
+2020-09-14 08:46:10 : (Ep-Nu_2 : 1 of 3) Finished Constructing Filtered Arrow File!, 18.05 mins elapsed.
+2020-09-14 08:46:11 : (Ep-Nu_2 : 1 of 3) Adding TileMatrix!, 18.061 mins elapsed.
+2020-09-14 08:46:20 : (Total-Nu_2 : 3 of 3) Adding GeneScoreMatrix!, 18.221 mins elapsed.
+2020-09-14 08:49:04 : (Total-Nu_2 : 3 of 3) Finished Creating Arrow File, 20.941 mins elapsed.
+2020-09-14 08:49:41 : (Total-Nu_1 : 2 of 3) Adding GeneScoreMatrix!, 21.563 mins elapsed.
+2020-09-14 08:50:48 : (Ep-Nu_2 : 1 of 3) Adding GeneScoreMatrix!, 22.676 mins elapsed.
+2020-09-14 08:53:13 : (Total-Nu_1 : 2 of 3) Finished Creating Arrow File, 25.092 mins elapsed.
+2020-09-14 08:54:19 : (Ep-Nu_2 : 1 of 3) Finished Creating Arrow File, 26.194 mins elapsed.
+ArchR logging successful to : ArchRLogs/ArchR-createArrows-9cf309c60c3-Date-2020-09-14_Time-08-28-05.log
