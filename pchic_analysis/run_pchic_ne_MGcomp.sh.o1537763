@@ -1,0 +1,68 @@
+Loading required package: ggplot2
+Loading required package: dplyr
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: edgeR
+Loading required package: limma
+Loading required package: plotrix
+Loading required package: gtools
+Loading required package: gplots
+
+Attaching package: ‘gplots’
+
+The following object is masked from ‘package:plotrix’:
+
+    plotCI
+
+The following object is masked from ‘package:stats’:
+
+    lowess
+
+Loading required package: eulerr
+Registered S3 method overwritten by 'eulerr':
+  method    from  
+  plot.venn gplots
+
+Attaching package: ‘eulerr’
+
+The following object is masked from ‘package:gplots’:
+
+    venn
+
+Loading required package: vioplot
+Loading required package: sm
+Package 'sm', version 2.2-5.6: type help(sm) for summary information
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Warning message:
+no DISPLAY variable so Tk is not available 
+Loading required package: VennDiagram
+Loading required package: grid
+Loading required package: futile.logger
+
+Attaching package: ‘futile.logger’
+
+The following object is masked from ‘package:gtools’:
+
+    scat
+
+[1] NA
+Error in scan(file = file, what = what, sep = sep, quote = quote, dec = dec,  : 
+  line 2 did not have 2 elements
+Calls: read.interactions -> read.table -> scan
+Execution halted
