@@ -1,0 +1,14 @@
+{
+    "atac.title" : "MG_InVitro_d7",
+    "atac.description" : "MG_InVitro_d7 single ended sample.",
+    "atac.pipeline_type" : "atac",
+    "atac.align_only" : false,
+    "atac.true_rep_only" : false,
+    "atac.fastqs_rep1_R1" : [ "/shen/shenlabstore3/neng/20200309_MGEN/ATAC_analysis/data/SRR5955090_1.fastq.gz" ],
+    "atac.fastqs_rep2_R1" : [ "/shen/shenlabstore3/neng/20200309_MGEN/ATAC_analysis/data/SRR5955093_trim.fastq.gz" ],
+    "atac.genome_tsv" : "/shen/shenlabstore3/neng/reference_genome/hg19/hg19.tsv",
+    "atac.paired_end" : false,
+    "atac.auto_detect_adapter" : true,
+    "atac.cutadapt_param" : "-e 0.1 -m 5",
+    "atac.enable_tss_enrich" : true
+}
