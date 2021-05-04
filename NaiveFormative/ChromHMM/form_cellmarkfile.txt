@@ -1,0 +1,5 @@
+Form	H3K27a	Form_H3K27a_V300042907_L3.filter.sort.bam	Form_igg_V300042907_L3.filter.sort.bam
+Form	H3K27m3	Form_H3K27m3_V300042907_L3.filter.sort.bam	Form_igg_V300042907_L3.filter.sort.bam
+Form	H3K4m1	Form_H3K4m1_V300042907_L3.filter.sort.bam	Form_igg_V300042907_L3.filter.sort.bam
+Form	H3K4m2	Form_H3K4m2_V300042907_L3.filter.sort.bam	Form_igg_V300042907_L3.filter.sort.bam
+Form	H3K4m3	Form_H3K4m3_V300042907_L3.filter.sort.bam	Form_igg_V300042907_L3.filter.sort.bam

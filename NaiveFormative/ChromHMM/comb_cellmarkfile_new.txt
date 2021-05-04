@@ -1,0 +1,10 @@
+Comb	H3K27a N	Naive_H3K27a_V300042907_L3.filter.sort.bam	Naive_igg_V300042907_L3.filter.sort.bam
+Comb	H3K27a F	Form_H3K27a_V300042907_L3.filter.sort.bam	Form_igg_V300042907_L3.filter.sort.bam
+Comb	H3K27m3 N	Naive_H3K27m3_V300042907_L3.filter.sort.bam	Naive_igg_V300042907_L3.filter.sort.bam
+Comb	H3K27m3 F	Form_H3K27m3_V300042907_L3.filter.sort.bam	Form_igg_V300042907_L3.filter.sort.bam
+Comb	H3K4m1 N	Naive_H3K4m1_V300042907_L3.filter.sort.bam	Naive_igg_V300042907_L3.filter.sort.bam
+Comb	H3K4m1 F	Form_H3K4m1_V300042907_L3.filter.sort.bam	Form_igg_V300042907_L3.filter.sort.bam
+Comb	H3K4m2 N	Naive_H3K4m2_V300042907_L3.filter.sort.bam	Naive_igg_V300042907_L3.filter.sort.bam
+Comb	H3K4m2 F	Form_H3K4m2_V300042907_L3.filter.sort.bam	Form_igg_V300042907_L3.filter.sort.bam
+Comb	H3K4m3 N	Naive_H3K4m3_V300042907_L3.filter.sort.bam	Naive_igg_V300042907_L3.filter.sort.bam
+Comb	H3K4m3 F	Form_H3K4m3_V300042907_L3.filter.sort.bam	Form_igg_V300042907_L3.filter.sort.bam

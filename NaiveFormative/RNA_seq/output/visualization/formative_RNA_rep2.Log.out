@@ -1,0 +1,30 @@
+STAR version=2.7.5a
+STAR compilation time,server,dir=Tue Jun 16 12:17:16 EDT 2020 vega:/home/dobin/data/STAR/STARcode/STAR.master/source
+##### Command Line:
+STAR --runMode inputAlignmentsFromBAM --inputBAMfile formative_RNA_rep2.Aligned.sortedByCoord.out.bam --outWigType bedGraph --outWigStrand Stranded --outWigNorm RPM --outFileNamePrefix visualization/formative_RNA_rep2.
+##### Initial USER parameters from Command Line:
+outFileNamePrefix                 visualization/formative_RNA_rep2.
+###### All USER parameters from Command Line:
+runMode                       inputAlignmentsFromBAM     ~RE-DEFINED
+inputBAMfile                  formative_RNA_rep2.Aligned.sortedByCoord.out.bam     ~RE-DEFINED
+outWigType                    bedGraph        ~RE-DEFINED
+outWigStrand                  Stranded        ~RE-DEFINED
+outWigNorm                    RPM        ~RE-DEFINED
+outFileNamePrefix             visualization/formative_RNA_rep2.     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runMode                           inputAlignmentsFromBAM
+inputBAMfile                      formative_RNA_rep2.Aligned.sortedByCoord.out.bam
+outFileNamePrefix                 visualization/formative_RNA_rep2.
+outWigType                        bedGraph   
+outWigStrand                      Stranded   
+outWigNorm                        RPM   
+
+-------------------------------
+##### Final effective command line:
+STAR   --runMode inputAlignmentsFromBAM   --inputBAMfile formative_RNA_rep2.Aligned.sortedByCoord.out.bam   --outFileNamePrefix visualization/formative_RNA_rep2.   --outWigType bedGraph      --outWigStrand Stranded      --outWigNorm RPM   
+----------------------------------------
+
+Jun 19 08:09:04 ..... reading from BAM, output wiggle
+Jun 19 08:11:45 ..... done

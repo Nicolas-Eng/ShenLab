@@ -1,0 +1,5 @@
+Naive	H3K27a	Naive_H3K27a_V300042907_L3.filter.sort.bam	Naive_igg_V300042907_L3.filter.sort.bam
+Naive	H3K27m3	Naive_H3K27m3_V300042907_L3.filter.sort.bam	Naive_igg_V300042907_L3.filter.sort.bam
+Naive	H3K4m1	Naive_H3K4m1_V300042907_L3.filter.sort.bam	Naive_igg_V300042907_L3.filter.sort.bam
+Naive	H3K4m2	Naive_H3K4m2_V300042907_L3.filter.sort.bam	Naive_igg_V300042907_L3.filter.sort.bam
+Naive	H3K4m3	Naive_H3K4m3_V300042907_L3.filter.sort.bam	Naive_igg_V300042907_L3.filter.sort.bam

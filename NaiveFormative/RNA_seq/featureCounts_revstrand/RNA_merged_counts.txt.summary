@@ -1,0 +1,15 @@
+Status	output/naive_RNA_rep1.Aligned.sortedByCoord.out.bam	output/naive_RNA_rep2.Aligned.sortedByCoord.out.bam	output/naive_RNA_rep3.Aligned.sortedByCoord.out.bam	output/formative_RNA_rep1.Aligned.sortedByCoord.out.bam	output/formative_RNA_rep2.Aligned.sortedByCoord.out.bam	output/formative_RNA_rep3.Aligned.sortedByCoord.out.bam
+Assigned	18879531	21546830	10894449	9232556	10845287	10433263
+Unassigned_Unmapped	10946488	12287717	5980758	5002284	5819996	5454034
+Unassigned_Read_Type	0	0	0	0	0	0
+Unassigned_Singleton	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0
+Unassigned_MultiMapping	0	0	0	0	0	0
+Unassigned_Secondary	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0
+Unassigned_NoFeatures	4685085	5129879	3406341	3124226	3599320	3427150
+Unassigned_Overlapping_Length	0	0	0	0	0	0
+Unassigned_Ambiguity	1046660	1164176	487381	378706	424730	402214
