@@ -1,0 +1,287 @@
+the number of projects is 2
+Running full pipeline
+Bcl2fastq
+Found Undetermined_S0_L001_I1_001.fastq.gz, skip Bcl2Fastq
+/usr/local/bin/mv: cannot stat ‘Undetermined_S0_R1_001.fastq.gz’: No such file or directory
+/usr/local/bin/mv: cannot stat ‘Undetermined_S0_I1_001.fastq.gz’: No such file or directory
+/usr/local/bin/mv: cannot stat ‘Undetermined_S0_I2_001.fastq.gz’: No such file or directory
+/usr/local/bin/mv: cannot stat ‘Undetermined_S0_R2_001.fastq.gz’: No such file or directory
+Skip bcltofastq
+Run number is: Undetermined
+Spliting to 3 million reads files
+mkdir: cannot create directory ‘/shen/shenlabstore3/neng/20201116_SHAREseq/output_newest/smallfastqs/’: File exists
+Found 0001.Undetermined.1.I1.fastq, skip split fastqs
+mkdir: cannot create directory ‘/shen/shenlabstore3/neng/20201116_SHAREseq/output_newest/Indexed/’: File exists
+Found Sub.0001.Undetermined.1.R1.fastq.R1.fastq, skip adding index
+ls: cannot access *R1.fastq.gz.R1.fastq.gz: No such file or directory
+ls: cannot access *R1.fastq.gz.R2.fastq.gz: No such file or directory
+Found trimmed files, skip trimming
+IM HERE
+atac.lib
+project 0 : atac.lib
+Spliting project
+Align atac.lib to hg38 ATAC library
+Sort atac.lib.hg38.bam
+Update RGID for atac.lib.hg38.st.bam
+Remove low quality reads and unwanted chrs: atac.lib.hg38.rigid.reheader.st.bam
+Count unfiltered reads atac.lib.hg38.wdup.all.bam
+[1] "P5s are"
+[1] "P1.09"
+# A tibble: 6 × 6
+     P5    R1    R2    R3                 Barcode Count
+  <chr> <chr> <chr> <chr>                   <chr> <dbl>
+1 P1.09 R1.03 R2.06 R3.06 R1.03,R2.06,R3.06,P1.09 87902
+2 P1.09 R1.53 R2.88 R3.14 R1.53,R2.88,R3.14,P1.09 21372
+3 P1.09 R1.12 R2.63 R3.38 R1.12,R2.63,R3.38,P1.09 21338
+4 P1.09 R1.03 R2.96 R3.67 R1.03,R2.96,R3.67,P1.09 21260
+5 P1.09 R1.03 R2.86 R3.76 R1.03,R2.86,R3.76,P1.09 20630
+6 P1.09 R1.69 R2.92 R3.78 R1.69,R2.92,R3.78,P1.09 19402
+[1] "Finished counting for atac.lib.hg38.wdup.RG.freq.bed"
+Remove barcode combinations that have less then 100 reads
+Split on bam
+Mark duplicates: atac.lib.hg38.wdup.bam
+"Marked duplicates for SubBarcodes.atac.lib.hg38.0001.bam"
+"Marked duplicates for SubBarcodes.atac.lib.hg38.0000.bam"
+"Marked duplicates for SubBarcodes.atac.lib.hg38.0003.bam"
+"Marked duplicates for SubBarcodes.atac.lib.hg38.0002.bam"
+"Marked duplicates for SubBarcodes.atac.lib.hg38.0005.bam"
+"Marked duplicates for SubBarcodes.atac.lib.hg38.0004.bam"
+"Marked duplicates for SubBarcodes.atac.lib.hg38.0006.bam"
+"Marked duplicates for SubBarcodes.atac.lib.hg38.0007.bam"
+"Marked duplicates for SubBarcodes.atac.lib.hg38.0008.bam"
+"Marked duplicates for SubBarcodes.atac.lib.hg38.0009.bam"
+"Marked duplicates for SubBarcodes.atac.lib.hg38.0010.bam"
+"Marked duplicates for SubBarcodes.atac.lib.hg38.0011.bam"
+"Marked duplicates for SubBarcodes.atac.lib.hg38.0013.bam"
+"Marked duplicates for SubBarcodes.atac.lib.hg38.0012.bam"
+"Marked duplicates for SubBarcodes.atac.lib.hg38.0014.bam"
+"Marked duplicates for SubBarcodes.atac.lib.hg38.0015.bam"
+"Marked duplicates for SubBarcodes.atac.lib.hg38.0016.bam"
+"Marked duplicates for SubBarcodes.atac.lib.hg38.0017.bam"
+"Marked duplicates for SubBarcodes.atac.lib.hg38.0018.bam"
+"Marked duplicates for SubBarcodes.atac.lib.hg38.0019.bam"
+"Marked duplicates for SubBarcodes.atac.lib.hg38.0020.bam"
+"Marked duplicates for SubBarcodes.atac.lib.hg38.0021.bam"
+"Marked duplicates for SubBarcodes.atac.lib.hg38.0022.bam"
+"Marked duplicates for SubBarcodes.atac.lib.hg38.0023.bam"
+"Marked duplicates for SubBarcodes.atac.lib.hg38.0024.bam"
+"Marked duplicates for SubBarcodes.atac.lib.hg38.0025.bam"
+"Marked duplicates for SubBarcodes.atac.lib.hg38.0026.bam"
+"Marked duplicates for SubBarcodes.atac.lib.hg38.0027.bam"
+"Marked duplicates for SubBarcodes.atac.lib.hg38.0028.bam"
+Create TSS pileup
+Count filtered reads atac.lib.hg38.rmdup.bam
+[1] "P5s are"
+[1] "P1.09"
+# A tibble: 6 × 6
+     P5    R1    R2    R3                 Barcode Count
+  <chr> <chr> <chr> <chr>                   <chr> <dbl>
+1 P1.09 R1.03 R2.06 R3.06 R1.03,R2.06,R3.06,P1.09 60122
+2 P1.09 R1.03 R2.86 R3.76 R1.03,R2.86,R3.76,P1.09 15496
+3 P1.09 R1.12 R2.63 R3.38 R1.12,R2.63,R3.38,P1.09 15258
+4 P1.09 R1.69 R2.92 R3.78 R1.69,R2.92,R3.78,P1.09 14152
+5 P1.09 R1.03 R2.96 R3.67 R1.03,R2.96,R3.67,P1.09 13650
+6 P1.09 R1.35 R2.88 R3.29 R1.35,R2.88,R3.29,P1.09 13562
+[1] "Finished counting for atac.lib.hg38.rmdup.RG.freq.bed"
+Remove low counts barcode combination
+Sort bam on name
+[bam_sort_core] merging from 0 files and 18 in-memory blocks...
+Convert rmdup.cutoff.bam to rmdup.cutoff.bed.gz
+Estimate lib size
+[1] "Average hg38 lib size of atac.lib is :"
+[1] 1392.943
+[1] "Plot Libsize, Species mixing etc..."
+project 1 : rna.lib
+Spliting project
+Add UMI to read name
+Merge trimmed fastqs
+Align rna.lib to hg38 RNA library
+Dec 01 03:52:58 ..... started STAR run
+Dec 01 03:52:58 ..... loading genome
+Dec 01 03:58:10 ..... started mapping
+Dec 01 04:11:55 ..... finished mapping
+Dec 01 04:12:00 ..... finished successfully
+rm: cannot remove ‘*_STARpass1’: No such file or directory
+rm: cannot remove ‘*_STARgenome’: No such file or directory
+Sort rna.lib.hg38.bam
+Update RGID for rna.lib.hg38.st.bam
+Remove low quality reads and unwanted chrs: rna.lib.hg38.rigid.reheader.st.bam
+Feature counting on exons
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                           o rna.lib.hg38.rigid.reheader.unique.st.bam      ||
+||                                                                            ||
+||             Output file : rna.lib.hg38.feature.count.txt                   ||
+||                 Summary : rna.lib.hg38.feature.count.txt.summary           ||
+||              Annotation : hg38.gencode.gtf (GTF)                           ||
+||      Dir for temp files : ./                                               ||
+||      Assignment details : <input_file>.featureCounts.bam                   ||
+||                      (Note that files are saved to the output directory)   ||
+||                                                                            ||
+||                                                                            ||
+||                 Threads : 18                                               ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : no                                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file hg38.gencode.gtf ...                                  ||
+||    Features : 1398443                                                      ||
+||    Meta-features : 59609                                                   ||
+||    Chromosomes/contigs : 25                                                ||
+||                                                                            ||
+|| Process BAM file rna.lib.hg38.rigid.reheader.unique.st.bam...              ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 24525221                                             ||
+||    Successfully assigned alignments : 9982212 (40.7%)                      ||
+||    Running time : 0.21 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "rna.lib.hg38.feature.co  ||
+|| unt.txt.summary"                                                           ||
+||                                                                            ||
+\\============================================================================//
+
+[bam_sort_core] merging from 0 files and 18 in-memory blocks...
+Count feature on both intron and exon
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                           o rna.lib.hg38.exon.featureCounts.bam            ||
+||                                                                            ||
+||             Output file : rna.lib.hg38.feature.count.txt                   ||
+||                 Summary : rna.lib.hg38.feature.count.txt.summary           ||
+||              Annotation : hg38.gencode.gtf (GTF)                           ||
+||      Dir for temp files : ./                                               ||
+||      Assignment details : <input_file>.featureCounts.bam                   ||
+||                      (Note that files are saved to the output directory)   ||
+||                                                                            ||
+||                                                                            ||
+||                 Threads : 18                                               ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : no                                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file hg38.gencode.gtf ...                                  ||
+||    Features : 60656                                                        ||
+||    Meta-features : 59609                                                   ||
+||    Chromosomes/contigs : 25                                                ||
+||                                                                            ||
+|| Process BAM file rna.lib.hg38.exon.featureCounts.bam...                    ||
+||    Single-end reads are included.                                          ||
+||    Total alignments : 24525221                                             ||
+||    Successfully assigned alignments : 19124792 (78.0%)                     ||
+||    Running time : 0.12 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "rna.lib.hg38.feature.co  ||
+|| unt.txt.summary"                                                           ||
+||                                                                            ||
+\\============================================================================//
+
+[bam_sort_core] merging from 0 files and 18 in-memory blocks...
+Count UMIs and generate rna.lib.hg38.UMIcounts.csv
+[bam_sort_core] merging from 0 files and 18 in-memory blocks...
+[bam_sort_core] merging from 0 files and 18 in-memory blocks...
+Count molecules in  rna.lib.hg38.gene.wdup.bam
+Group reads to unique UMIs
+Filter UMI that has only 1 read and GGGGGGGGGG read
+[bam_sort_core] merging from 0 files and 18 in-memory blocks...
+Count unfiltered reads rna.lib.hg38.wdup.all.bam
+[1] "P5s are"
+[1] "P1.17" "P1.57"
+# A tibble: 6 × 6
+     P5    R1    R2    R3                 Barcode Count
+  <chr> <chr> <chr> <chr>                   <chr> <dbl>
+1 P1.17 R1.12 R2.63 R3.38 R1.12,R2.63,R3.38,P1.17 28326
+2 P1.17 R1.58 R2.72 R3.29 R1.58,R2.72,R3.29,P1.17 16311
+3 P1.17 R1.03 R2.06 R3.06 R1.03,R2.06,R3.06,P1.17 12275
+4 P1.17 R1.35 R2.88 R3.29 R1.35,R2.88,R3.29,P1.17 11495
+5 P1.17 R1.03 R2.96 R3.67 R1.03,R2.96,R3.67,P1.17 10439
+6 P1.17 R1.69 R2.92 R3.78 R1.69,R2.92,R3.78,P1.17  9722
+[1] "Finished counting for rna.lib.hg38.wdup.RG.freq.bed"
+Remove barcode combinations that have less then 100 reads
+Remove duplicates
+Split on bam
+Mark duplicates: rna.lib.hg38.wdup.bam
+"Marked duplicates for SubBarcodes.rna.lib.hg38.0003.bam"
+"Marked duplicates for SubBarcodes.rna.lib.hg38.0001.bam"
+"Marked duplicates for SubBarcodes.rna.lib.hg38.0002.bam"
+"Marked duplicates for SubBarcodes.rna.lib.hg38.0000.bam"
+"Marked duplicates for SubBarcodes.rna.lib.hg38.0004.bam"
+"Marked duplicates for SubBarcodes.rna.lib.hg38.0005.bam"
+"Marked duplicates for SubBarcodes.rna.lib.hg38.0006.bam"
+"Marked duplicates for SubBarcodes.rna.lib.hg38.0007.bam"
+"Marked duplicates for SubBarcodes.rna.lib.hg38.0009.bam"
+"Marked duplicates for SubBarcodes.rna.lib.hg38.0010.bam"
+"Marked duplicates for SubBarcodes.rna.lib.hg38.0008.bam"
+"Marked duplicates for SubBarcodes.rna.lib.hg38.0011.bam"
+"Marked duplicates for SubBarcodes.rna.lib.hg38.0012.bam"
+"Marked duplicates for SubBarcodes.rna.lib.hg38.0014.bam"
+"Marked duplicates for SubBarcodes.rna.lib.hg38.0013.bam"
+"Marked duplicates for SubBarcodes.rna.lib.hg38.0015.bam"
+"Marked duplicates for SubBarcodes.rna.lib.hg38.0016.bam"
+"Marked duplicates for SubBarcodes.rna.lib.hg38.0018.bam"
+"Marked duplicates for SubBarcodes.rna.lib.hg38.0017.bam"
+"Marked duplicates for SubBarcodes.rna.lib.hg38.0022.bam"
+"Marked duplicates for SubBarcodes.rna.lib.hg38.0019.bam"
+"Marked duplicates for SubBarcodes.rna.lib.hg38.0021.bam"
+"Marked duplicates for SubBarcodes.rna.lib.hg38.0020.bam"
+Calculate read distribution
+Error in read.table(paste(dir, "temp1.txt", sep = "/"), header = T) : 
+  no lines available in input
+Execution halted
+Count filtered reads rna.lib.hg38.rmdup.bam
+[1] "P5s are"
+[1] "P1.17" "P1.57"
+# A tibble: 6 × 6
+     P5    R1    R2    R3                 Barcode Count
+  <chr> <chr> <chr> <chr>                   <chr> <dbl>
+1 P1.17 R1.12 R2.63 R3.38 R1.12,R2.63,R3.38,P1.17 23360
+2 P1.17 R1.58 R2.72 R3.29 R1.58,R2.72,R3.29,P1.17 12795
+3 P1.17 R1.03 R2.06 R3.06 R1.03,R2.06,R3.06,P1.17 10424
+4 P1.17 R1.35 R2.88 R3.29 R1.35,R2.88,R3.29,P1.17  9719
+5 P1.17 R1.03 R2.96 R3.67 R1.03,R2.96,R3.67,P1.17  8625
+6 P1.17 R1.69 R2.92 R3.78 R1.69,R2.92,R3.78,P1.17  8411
+[1] "Finished counting for rna.lib.hg38.rmdup.RG.freq.bed"
+Remove low counts barcode combination
+Count UMIs per cell
+Estimate lib size
+[1] "Average hg38 lib size of rna.lib is :"
+[1] 1744.347
+[1] "Plot Libsize, Species mixing etc..."
+The pipeline is completed!! Author: Sai Ma <sai@broadinstitute.org>
