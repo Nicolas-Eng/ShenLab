@@ -1,0 +1,20 @@
+﻿ID,condition
+MG_Day2_Rep1,Microglia Day2
+MG_Day2_Rep2,Microglia Day2
+MG_Day7_Rep1,Microglia Day7
+MG_Day7_Rep2,Microglia Day7
+MG_Day14_Rep1,Microglia Day14
+MG_Day14_Rep2,Microglia Day14
+MG_Day30_Rep1,Microglia Day30
+MG_Day30_Rep2,Microglia Day30
+Microglia_ExVivo_Rep1,Microglia ExVivo
+Microglia_ExVivo_Rep2,Microglia ExVivo
+Microglia_ExVivo_Rep3,Microglia ExVivo
+Microglia_InVitro_Rep1,Microglia InVitro
+Microglia_InVitro_Rep2,Microglia InVitro
+Macrophage_Rep1,Macrophage
+Macrophage_Rep2,Macrophage
+Monocyte_Rep1,Monocyte
+Monocyte_Rep2,Monocyte
+iPSCs_Rep1,iPSCs
+iPSCs_Rep2,iPSCs
